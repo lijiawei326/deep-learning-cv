@@ -13,7 +13,7 @@ test文件夹中包含12,000张包含id的无标签图像。我们需要预测te
 ├── model.py
 ├── my_dataset.py
 ├── predict.py
-├── split_data.py : 自动随机分割测试集于验证集
+├── split_data.py : 自动随机分割测试集与验证集
 └── train.py
 ```
 
