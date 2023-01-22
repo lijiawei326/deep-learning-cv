@@ -8,7 +8,7 @@ class AlexNet(nn.Module):
         self.features = nn.Sequential(
             # 左,右,上,下
             nn.ZeroPad2d((2, 1, 2, 1)),  # [3,224,224] -> [3,227,227]
-            nn.Conv2d(3, 96, kernel_size=(11, 11), stride=(4, 4), padding=2),  # [3,224,224] -> [96,55，55]
+            nn.Conv2d(3, 96, kernel_size=(11, 11), stride=(4, 4)),  # [3,224,224] -> [96,55，55]
             nn.ReLU(inplace=True),
             nn.MaxPool2d(kernel_size=(3, 3), stride=2),  # [96,55,55] -> [96,27,27]
 
