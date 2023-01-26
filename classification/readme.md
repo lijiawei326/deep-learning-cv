@@ -24,3 +24,5 @@ test文件夹中包含12,000张包含id的无标签图像。我们需要预测te
 ## 各模型预测结果得分
 
 * AlexNet : 0.64348
+* VGG16-from scratch : 0.19161
+* VGG16-Fine-Tuning : 0.07444
