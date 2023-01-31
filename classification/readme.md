@@ -28,3 +28,4 @@ test文件夹中包含12,000张包含id的无标签图像。我们需要预测te
 * VGG16-from scratch : 0.19161
 * VGG16-Fine-Tuning : 0.07444
 * NiN : 0.13385
+* GoogLeNet-from scratch : 0.16765
